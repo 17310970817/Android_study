@@ -21,6 +21,7 @@ private EditText editText;
         Button button=findViewById(R.id.bottom);
         final TextView textView=findViewById(R.id.textview);
 //___________ceshi
+        //ddd
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
