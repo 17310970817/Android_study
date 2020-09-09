@@ -17,6 +17,7 @@ private EditText editText;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    //111111111
     public void onClick(View view){
         Button button=findViewById(R.id.bottom);
         final TextView textView=findViewById(R.id.textview);
