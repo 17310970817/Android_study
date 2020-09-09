@@ -20,8 +20,6 @@ private EditText editText;
     public void onClick(View view){
         Button button=findViewById(R.id.bottom);
         final TextView textView=findViewById(R.id.textview);
-//___________ceshid
-        ///实打实大苏打
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
