@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="142dp"
+        android:layout_height="53dp"
+        android:text="确定"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="376dp"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/textview"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="242dp"
+        android:hint="请输入密码"
+        />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="118dp"
+        android:hint="请输入用户名"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="142dp"
+        android:layout_height="53dp"
+        android:text="取消"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
