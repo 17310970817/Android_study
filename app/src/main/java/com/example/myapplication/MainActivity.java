@@ -20,7 +20,7 @@ private EditText editText;
     public void onClick(View view){
         Button button=findViewById(R.id.bottom);
         final TextView textView=findViewById(R.id.textview);
-
+//___________ceshi
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
